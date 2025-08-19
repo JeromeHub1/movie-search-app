@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movie Finder | Jerome</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>🎬 Movie Finder</h1>
+    <section class="search-section">
+      <input type="text" class="search-input" id="searchInput" placeholder="Search for a movie..." />
+      <button class="search-btn" id="searchBtn">Search</button>
+    </section>
+    <p class="header-desc">Search movies, explore details</p>
+  </header>
+
+  
+
+  <main class="movie-grid" id="movieGrid">
+
+  </main>
+
+  <!-- MODAL -->
+   <div class="modal" id="movieModal">
+    <div class="modal-content">
+      <span class="close-btn" id="closeModal">&times;</span>
+      <img alt="Movie Poster" id="modalPoster">
+      <h2 id="modalTitle"></h2>
+      <p id="modalYear"></p>
+      <p id="modalGenre"></p>
+      <p id="modalPlot"></p>
+    </div>
+   </div>
+
+  <footer>
+    <p>Powered by OMDb API</p>
+  </footer>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
