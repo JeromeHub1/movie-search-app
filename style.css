@@ -146,13 +146,46 @@ footer {
   margin-bottom: 2rem;
 }
 
+
 @media (max-width: 726px) {
+
   body {
-    margin: 0 2%;
+    margin: 0 1px;
+  }
+
+  header {
+    text-align: center;
+    padding: 0.5rem;
+  }
+
+  header h1 {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+  }
+
+  header p {
+    color: #b3b3b3;
+    font-size: 1rem;
   }
 
   .movie-grid {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.9rem;
   }
 
+  .detail {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    padding: 0.25rem;
+  }
+
+  .movie-card .detail h3 {
+    font-size: 0.8rem;
+  }
+
+  .movie-card .detail p {
+    color: #aaa;
+    font-size: 0.75rem;
+  }
 }
