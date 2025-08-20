@@ -120,6 +120,7 @@ header p {
 
 .modal-content {
   padding: 2% 3%;
+  padding-bottom: 3rem;
   background: #1e1e1e;
   border-radius: 1rem;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
@@ -190,6 +191,10 @@ footer {
     gap: 0.9rem;
   }
 
+  .modal-content {
+    padding: 10% 7%;
+  }
+
   .detail {
     display: flex;
     flex-direction: column;
@@ -211,14 +216,6 @@ footer {
     flex-direction: column;
   }
 
-  .modal-detail {
-    gap: 10px;
-  }
-  
-  .modal-detail div {
-    padding: 0;
-  }
-
   .modal-detail img {
     width: 45%;
     height: 40%;
@@ -228,6 +225,8 @@ footer {
     width: 80vw;
     font-size: 0.8rem;
   }
+
+  .movie-desc {
+    border-left: 4px solid #ff2400;
+  }
 }
-
-
