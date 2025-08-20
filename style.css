@@ -147,8 +147,12 @@ footer {
 }
 
 @media (max-width: 726px) {
+  body {
+    margin: 0 2%;
+  }
 
   .movie-grid {
     grid-template-columns: repeat(3, 1fr);
   }
+
 }
