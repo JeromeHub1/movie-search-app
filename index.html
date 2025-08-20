@@ -23,19 +23,22 @@
   </main>
 
   <!-- MODAL -->
-   <div class="modal" id="movieModal">
+  <div class="modal" id="movieModal">
     <div class="modal-content">
-      <span class="close-btn" id="closeModal">&times;</span>
-      <img alt="Movie Poster" id="modalPoster">
-      <h2 id="modalTitle"></h2>
-      <p id="modalYear"></p>
-      <p id="modalGenre"></p>
-      <p id="modalPlot"></p>
+      <span class="close-modal" id="closeModal"> &times; </span>
+      <div class="modal-detail">
+        <img src="kingkong.jpg" alt="modalPoster" id="modalPoster">
+        <div class="movie-desc">
+          <h2 id="modalTitle"></h2>
+          <p><span id="modalYear"></span> &bull; <span id="modalGenre"></span></p>
+          <section id="modalPlot"></section>
+        </div>
+      </div>
     </div>
-   </div>
+  </div>
 
   <footer>
-    <p>Powered by OMDb API</p>
+    <p>Powered by OMDb API | Jerome</p>
   </footer>
 
 
