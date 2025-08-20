@@ -15,6 +15,7 @@ body {
 
 /* ========= HEADER ========= */
 header {
+  margin-top: 1.5rem;
   text-align: center;
   padding: 1rem;
 }
@@ -150,7 +151,7 @@ footer {
 @media (max-width: 726px) {
 
   body {
-    margin: 0 1px;
+    margin: 0 10%;
   }
 
   header {
