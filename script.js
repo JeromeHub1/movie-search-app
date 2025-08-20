@@ -9,7 +9,7 @@ const closeModal = document.getElementById('closeModal');
 
 searchBtn.addEventListener('click', () => {
   const query = searchInput.value.trim();
-  if (query) fetchMovies(query);;
+  if (query) fetchMovies(query);
 });
 
 // Fetch Movies
@@ -58,6 +58,16 @@ async function fetchMovieDetails(id) {
   movieModal.style.display = 'flex';
 }
 
+//Close Modal Button
 closeModal.addEventListener('click', () => {
   movieModal.style.display = 'none';
+});
+
+
+// Enter Key to Search & Display Movies
+searchInput.addEventListener('keydown', (e) => {
+  if (e.key === 'Enter') {
+    const query = searchInput.value.trim();
+    if (query) fetchMovies(query);
+  }
 });
