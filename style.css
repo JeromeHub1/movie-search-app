@@ -211,6 +211,14 @@ footer {
     flex-direction: column;
   }
 
+  .modal-detail {
+    gap: 10px;
+  }
+  
+  .modal-detail div {
+    padding: 0;
+  }
+
   .modal-detail img {
     width: 45%;
     height: 40%;
@@ -221,3 +229,4 @@ footer {
     font-size: 0.8rem;
   }
 }
+
