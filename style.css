@@ -109,7 +109,7 @@ header p {
 
 /* =============== MODAL ================= */
 .modal {
-  display: none;
+  display: flex;
   position: fixed;
   inset: 0;
   background: rgba(0, 0, 0, 0.8);
@@ -204,5 +204,20 @@ footer {
   .movie-card .detail p {
     color: #aaa;
     font-size: 0.75rem;
+  }
+
+  .modal-detail {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .modal-detail img {
+    width: 45%;
+    height: 40%;
+  }
+
+  .modal-detail .movie-desc {
+    width: 80vw;
+    font-size: 0.8rem;
   }
 }
